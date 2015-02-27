@@ -1,0 +1,19 @@
+{
+  "name": "es6-sandbox",
+  "version": "0.0.1",
+  "description": "Fiddling around with ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "author": "masotime@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^0.6.1"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0"
+  }
+}
