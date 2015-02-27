@@ -1,5 +1,7 @@
 # Mucking around with ES6 and the Babel Transpiler
 
+(Starting point - [this excellent article](http://mammal.io/articles/using-es6-today/))
+
 Quick notes:
 
 * 1. `npm install -g babel` followed by `babel -d <targetdir> <sourcedir>` to transpile
