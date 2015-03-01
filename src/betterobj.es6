@@ -4,7 +4,7 @@ let one = 'one';
 let two = 2;
 let three = '3';
 
-let obj = {
+export let obj = {
 	one,
 	two,
 	three,
